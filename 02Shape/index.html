@@ -10,12 +10,58 @@
   <body>
     <a-scene background="color: #333333">
       <a-box id="myBox"
-        width="3"
-        height="2"
+        width="1"
+        height="1"
         depth="1"
-        color="#BBAA33" 
+        color="#F1C40F" 
+        position="-2 3 2"
+        rotation="4 2 10"
+        scale="1 1 1"
         shadow>
       </a-box>
+
+      <a-cone
+        radius-bottom="1"
+        radius-top="0.5"
+        color="#F75C03"
+        position="4 -3 0"
+        shadow
+      ></a-cone>
+
+      <a-dodecahedron
+        radius="1"
+        color="#00CC66"
+        position="0 2 -3"
+        shadow
+      ></a-dodecahedron>
+
+      <a-torus-knot
+        arc="180"
+        p="2"
+        q="7"
+        radius="5"
+        radius-tubular="0.1"
+        color="#470063"
+      ></a-torus-knot>
+
+      <a-torus-knot
+        arc="110"
+        p="1"
+        q="5"
+        radius="5"
+        radius-tubular="0.1"
+        color="#B40952"
+        rotation="-2 -4 -10"
+      ></a-torus-knot>
+
+      <a-sphere 
+        radius="0.5"
+        color="#067BC2"
+        position="-3 -2 2"
+        scale="2 2 2"
+        shadow
+      ></a-sphere>
+
     </a-scene>
   </body>
 </html>
